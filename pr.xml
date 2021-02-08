@@ -15,9 +15,8 @@
         </member>
     </team>
     <abstract>
-        <p>mongoimport --db Equipas --collection equipas --file PEI-teams.json --jsonArray</p>
-        <p><b>Os dados foram importados para o mongo através da sua interface gráfica</b></p>
-        <p><b>Para executar as aplicações desenvolvidas basta fazer npm i e de seguida npm start</b></p>
+        <p>mongoimport --db Equipas --collection equipas --file PEI-teams.json --jsonArray</p>p>
+        <p><b>Para executar as aplicações desenvolvidas basta fazer npm i e de seguida npm start em cada uma das pastas do servidor</b></p>
         <p>Resposta à pergunta 2 no ficheiro resoluçao.txt </p>
     </abstract>
     <deliverables>
