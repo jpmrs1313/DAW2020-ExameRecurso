@@ -1,0 +1,40 @@
+extends layout
+
+block content
+  h1 Listas de equipa
+
+  br
+  br
+  a.w3-button(href='/adicionar_equipa') Adicionar Equipa
+  br
+  br
+  table.w3-table-all
+      tr
+        th Id
+        th Equipa
+        th Pitch1
+        th Pitch2
+        th TechPitch 
+        th BusinessReport 
+        th techReport 
+        th Número de membros da equipa
+        th
+        th
+      each d in dados
+        tr
+          td  
+            a(href='/'+d._id) #{d._id}
+          td= d.team
+          td= d.pitch1
+          td= d.pitch2
+          td= d.techPitch
+          td= d.businessReport
+          td= d.techReport
+          td= d.n_members
+          td 
+            a(href='/eliminar/'+d._id) Eliminar Equipa
+          td 
+            a(href='/adicionar_membro/'+d._id) Adicionar membro
+  br
+  br
+  br

@@ -1,0 +1,22 @@
+1- db.equipas.find().count()
+2 - db.equipas.find({},{"team":1}).sort()
+
+
+/*
+app.use(function(req, res, next){
+  if(req.originalUrl != '/api/token'){
+    // Autorização
+    const token = req.query.token;
+    if (!token) return res.status(401).json({ auth: false, message: 'No token provided.' });
+    
+    jwt.verify(token, "DAW2020-recurso1", function(err, decoded) {
+      if (err) return res.status(500).json({ auth: false, message: 'Failed to authenticate token.' });
+
+      req.subi = decoded.sub;
+      req.datai = decoded.data;
+      next();
+    })
+  }
+  else next()
+});
+*/

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "../T2/t2.dtd">
+<pr>
+    <meta>
+        <key>DAW_Recurso</key>
+        <title>Project Record do Recurso de DAW </title>
+        <bdate>8 de fevereiro 2021</bdate>
+        <edate>>8 de fevereriro 2021</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="pg42836">
+            <name>João Soares</name>
+            <email>pg42836@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>mongoimport --db Equipas --collection equipas --file PEI-teams.json --jsonArray</p>
+        <p><b>Os dados foram importados para o mongo através da sua interface gráfica</b></p>
+        <p><b>Para executar as aplicações desenvolvidas basta fazer npm i e de seguida npm start</b></p>
+        <p>Resposta à pergunta 2 no ficheiro resoluçao.txt </p>
+    </abstract>
+    <deliverables>
+        <link url="PR.xml">Project Record</link>
+    </deliverables>
+</pr>

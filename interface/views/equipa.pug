@@ -1,0 +1,26 @@
+extends layout
+
+block content
+    h1 Página da equipa #{dados.team}
+    h1 guid - #{dados.guid}
+    h1 pitch1 - #{dados.pitch1}
+    h1 pitch2 - #{dados.pitch2}
+    h1 businessReport - #{dados.businessReport}
+    h1 techReport - #{dados.techReport}
+
+    h1 Membros
+    table.w3-table-all
+      tr
+        th Id
+        th Nome
+        th Curso
+      each d in dados.members
+        tr
+          td #{d.id}
+          td= d.name
+          td= d.course
+
+    br
+    br
+    br
+    a.w3-button(href='/') Página Inicial
